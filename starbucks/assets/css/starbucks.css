@@ -1,0 +1,149 @@
+
+
+
+html{
+  color: #00704a;
+  margin-top: 0;
+}
+body {
+  background-color: #F9F7F7;
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+/* navbar */
+.logo {
+  width: 40px;
+}
+.navbar {
+  background-color: #f6f5ef;
+  text-align: center;
+}
+.navbar a {
+  width: auto;
+  color: #423838;
+  font-size: 1rem;
+  border-radius: 20px;
+  margin: 5px;
+}
+
+.navbar a:hover,
+.navbar .active {
+ 
+  color: #00704a;
+}
+.navbar a.navbar-brand{
+  background-color: #f6f5ef;
+}
+
+.btn-outline-secondary {
+  --bs-btn-color: #f6f5ef;
+  --bs-btn-border-color: #f6f5ef;
+}
+
+h3 {
+  color: #f6f5ef;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+p {
+  color: #40514E;
+  font-family: 'Anuphan', sans-serif;
+}
+
+a {
+  color: #000000;
+  padding: 0 20px 0 20px;
+}
+
+
+.home-row {
+  /* margin: 100px auto; */
+  padding: 80px 20%;
+  text-align: left;
+  width: 100%;
+  background-color: #00704a;
+}
+.home-row-1 {
+  background-image: url("https://i.esdrop.com/d/f/00nJAaeIIr/MEjmmUWY0e.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  .home-row-2 {
+    background-image: url("https://i.esdrop.com/d/f/00nJAaeIIr/e3NVZDQvwu.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+.home-row-3 {
+background-image: url("https://i.esdrop.com/d/f/00nJAaeIIr/gWr0RxLJp1.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.codinggif {
+  border-radius: 15px;
+  float: left;
+  margin-top: -20px;
+  margin-right: 100px;
+  width: 20%;
+}
+
+.goalimg {
+  border-radius: 25px;
+  float: right;
+  margin-left: 100px;
+  width:50%;
+}
+
+.title-1,
+.home-desc-1{
+  /* clear: left; */
+  line-height: 1.8;
+  color: #00704a;
+}
+.title-2,
+.home-desc-2 {
+  /* clear: right; */
+  line-height: 1.8;
+  color: #e54360;
+}
+.title-3,
+.home-desc-3 {
+  /* clear: left; */
+  line-height: 1.8;
+  color:#f6f5ef;
+}
+/* FOOTER */
+nav.footer {
+  padding: 20px 20%;
+  height: 200px;
+  background: #2c2a29;
+}
+
+.footer {
+  font-family: "Merriweather", serif;
+  font-size: 16px;
+  color: #f6f5ef;
+}
+nav.footer div ul {
+  height: 120px;
+  margin-top: 0;
+}
+nav.footer div ul li a{
+  color: #f6f5ef;
+  list-style: none;
+  text-align: start;
+  text-decoration: underline;
+}
+nav.footer div ul li:hover {
+  list-style: none;
+  text-align: start;
+  text-decoration: underline;
+  color: #9c9e9d;
+  cursor: pointer;
+}
